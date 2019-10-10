@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  private var locationManager: LocationManager?
 
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
+    locationManager = LocationManager()
   }
 
 
